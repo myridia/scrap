@@ -1,3 +1,5 @@
+<img src="scrap.svg" alt="scrap" width="120">
+
 # Scrap
 Scrapping Content from Websites
 
