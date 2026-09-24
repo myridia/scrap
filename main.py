@@ -8,11 +8,11 @@ chrome_options.add_argument("--headless=new") # for Chrome >= 109
 
 browser = webdriver.Chrome(options=chrome_options)
 
-browser.get('https://www.tops.co.th/en/fruit-and-vegetables')
+browser.get('https://psi.local/exchange.html')
 
 soup = BeautifulSoup(browser.page_source, "html.parser")
 
-items = soup.find_all('div', {'class': 'mt-product-item'})
+items = soup.find_all('div', {'class': 'table-container'})
 print(items)
 
 
